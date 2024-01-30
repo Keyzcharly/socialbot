@@ -7,6 +7,11 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
+
+module.exports = {
+  plugins: [`gatsby-plugin-netlify-cms`],
+}
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Starter Blog`,
